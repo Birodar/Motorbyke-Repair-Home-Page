@@ -25,16 +25,18 @@ html {
 
 header {
   min-height: 100px;
+  
 }
 
 .hed {
   /* background-color: green; */
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
+  border-bottom: 1px solid white;
 }
 
 .logo {
@@ -64,7 +66,7 @@ nav li {
   
 }
 
-nav a {
+.button {
   padding: 7px 5px 5px 5px;
   box-sizing: border-box;
   background-color: white;
@@ -72,16 +74,22 @@ nav a {
   font-family: "Roboto Serif", serif;
   font-weight: bold;
   border-radius: 2px;
-  margin-left: 25px;
+  /* margin-left: 10px; */
   box-shadow: 5px 5px;
   border: solid 1px white;
   background-color: transparent;
+}
+
+.button:hover {
+color: white;
+background-color: black;
 }
 
 main {
   min-height: 300px;
   display: flex;
   align-items: center;
+  margin-top:50px;
 }
 
 .box1 {
@@ -232,4 +240,21 @@ a {
 
 footer { 
   min-height: 300px;
+}
+
+.testimonials {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  
+}
+
+.tbox {
+  width: 47%;
+  padding:50px;
+  border: 1px solid white;
+  box-sizing: border-box; 
+  margin-top: 50px;
+  
 }
