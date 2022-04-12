@@ -60,7 +60,22 @@ nav li {
   display:inline-block;
   padding-left: 5px;
   padding-right: 5px;
+  color:white;
   
+}
+
+nav a {
+  padding: 7px 5px 5px 5px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-left: 25px;
+  box-shadow: 5px 5px;
+  border: solid 1px white;
+  background-color: transparent;
 }
 
 main {
@@ -95,7 +110,7 @@ main {
   font-family: "Roboto Serif", serif;
   font-weight: bold;
   border-radius: 2px;
-  box-shadow: 5px 5px ;
+  box-shadow: 5px 5px;
 
 }
 
@@ -108,7 +123,7 @@ main {
 .box2 img {
   width: 400px;
   min-height: 300px;
-  box-shadow: 5px 5px red;
+  
 }
 .cards {
   /* background-color: rgba(137, 216, 252, 0.842); */
