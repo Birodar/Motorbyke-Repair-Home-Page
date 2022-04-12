@@ -1,0 +1,220 @@
+html {
+  /* background: url(images/motocycle.jpg) no-repeat center center fixed; */
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.6334908963585435) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Serif", serif;
+  font-size: 1;
+  color: white;
+}
+
+header {
+  min-height: 100px;
+}
+
+.hed {
+  /* background-color: green; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.logo {
+  /* background-color: antiquewhite; */
+  width: 60%;
+  min-height: 200px;
+}
+
+.logo img {
+  min-height: 200px;
+  width: 200px;
+}
+
+nav {
+  /* background-color: green; */
+  width: 40%;
+  min-height: 100px;
+  
+}
+
+nav li {
+  padding-top: 30px;
+  display:inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.box1 {
+  width: 70%;
+  /* Or another way to space them in this ratio */
+  flex: 2;
+}
+
+.box1 h1 {
+  font-size: 4rem;
+  /* font-family: "Roboto Serif", serif; */
+}
+
+.box1 p {
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-bottom: 2rem;
+  padding-right: 4rem;
+}
+
+.box1 a {
+  padding: 7px 5px 5px 5px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  font-family: "Roboto Serif", serif;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 5px 5px ;
+
+}
+
+.box2 {
+  /* width: 30%; */
+  /* Or another way to space them in this ratio */
+  flex: 1;
+}
+
+.box2 img {
+  width: 400px;
+  min-height: 300px;
+  box-shadow: 5px 5px red;
+}
+.cards {
+  /* background-color: rgba(137, 216, 252, 0.842); */
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.cards h2 {
+  font-size: 2.5rem;
+  font-family: "Roboto Serif", serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.cards img {
+  text-align: center;
+  padding-top: 30px;
+  min-height: 75px;
+  width: 75px;
+  margin-left: auto;
+}
+.cards p {
+  font-size: 1rem;
+  font-family: "Roboto Serif", serif;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.card1 {
+  /* background-color: red; */
+  background-image: url(images/M1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 300px;
+  width: 30%;
+  transition: all 1s;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+}
+
+.card1 i {
+  font-size: 5rem;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.card2 {
+  /* background-color: rgb(255, 102, 0); */
+  background-image: url(images/M2.jpg);
+  background-size: cover;
+  min-height: 300px;
+  width: 30%;
+  transition: all 1s;
+  
+}
+
+.card2 i {
+  font-size: 5rem;
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.card2:hover {
+  transform: scale(1.1);
+}
+
+.card3 {
+  /* background-color: rgb(255, 145, 0); */
+  background-image: url(images/M3.jpg);
+  background-size: cover;
+  min-height: 300px;
+  width: 30%;
+  transition: all 1s;
+}
+
+.card3:hover {
+  transform: scale(1.1);
+}
+
+.card3 i {
+  font-size: 5rem;
+  padding-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 50px 30px 30px 30px;
+  box-sizing: border-box;
+}
+
+footer { 
+  min-height: 300px;
+}
